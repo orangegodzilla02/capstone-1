@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>3n + 1 calculator</h1>
-  <a href="calculator.html"><button>3n+1 Calculator</button></a>
-   <a href="aiEssay.html"><button>pros and cons of Ai</button></a>
-  <a href="riuEssay.html"><button>responsible internet usage</button></a>
-    <hr>
-   <a href="loremipsum.html"><button>loremipsum page</button></a>
-    <a href="aboutMe.html"><button>about me</button></a>
-</body>
-</html>
+<html>
+  <head>
+    <title>Dark Mode</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="light-mode">
+
+    <button id="darkModeToggle" onclick="darkModeToggle()">Toggle Dark Mode</button>
+
+    <div class="content-section">
+        <h2>Section 1</h2>
+        <p id="section1Content">This is the content of section 1.</p>
+        <button id="toggleSection1" onclick="sec1('section1Content')">Toggle Section 1</button>
+    </div>
+
+    <div class="content-section">
+        <h2>Section 2</h2>
+        <p id="section2Content">This is the content of section 2.</p>
+        <button id="toggleSection2" onclick="sec1('section2Content')">Toggle Section 2</button>
+    </div>
+
+    <div class="content-section">
+        <h2>Section 3</h2>
+        <p id="section3Content">This is the content of section 3.</p>
+        <button id="toggleSection3" onclick="sec1('section3Content')">Toggle Section 3</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html
