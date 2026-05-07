@@ -1,1 +1,23 @@
+p {
+  color: #d9c64a; 
+  font-weight: 600;
+}
 
+h1 {color: #d9c64a; 
+  font-weight: 600;
+}
+
+
+html {
+  background-color: #242738;
+  padding: 20px;
+  
+}
+
+button {
+  background-color: #e1d37a;
+  border-color: #dec20d;
+  font-size: 150%;
+  color: #705f00
+
+}
