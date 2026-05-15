@@ -40,6 +40,15 @@ input {
   background-color: #b4dcff;
 }
 
+td {
+  color: #d9c64a; 
+  font-weight: 600;
+  border: solid 2px;
+  padding: 10px;
+}
+
+
+
 #p1 {
    background: #244f38;
    border: solid 2px;
@@ -80,4 +89,23 @@ input {
 
 .hidden {
   display: none;
+}
+
+.dead {
+  background-color: #e1e1e1;
+  border-color: #464646;
+  font-size: 150%;
+  color: #6b6b6b
+}
+.dead:hover{
+  background-color: #e1e1e1;
+  border-color: #464646;
+  font-size: 150%;
+  color: #6b6b6b
+}
+.dead:active{
+  background-color: #e1e1e1;
+  border-color: #464646;
+  font-size: 150%;
+  color: #6b6b6b
 }
